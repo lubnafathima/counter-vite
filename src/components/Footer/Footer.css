@@ -1,0 +1,8 @@
+.action_handler {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 10vh;
+    padding: 1rem;
+    border-top: 1px solid #000;
+}

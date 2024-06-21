@@ -1,0 +1,18 @@
+.counter1_container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.counter1 {
+    font-size: 5rem;
+}
+
+.counter_handle {
+    display: flex;
+    gap: 1rem;
+}

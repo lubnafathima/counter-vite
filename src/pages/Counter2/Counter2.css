@@ -1,0 +1,11 @@
+.counter2_content {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter2 {
+    font-size: 5rem;
+}
