@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./Footer.css";
 
 const Footer = ({ count, setCount }) => {
-  const [timerState, setTimerState] = useState('stopped'); // 'running', 'paused', 'stopped'
+  const [timerState, setTimerState] = useState('stopped');
   const [timerId, setTimerId] = useState(null);
 
   useEffect(() => {

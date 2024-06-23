@@ -1,3 +1,23 @@
+.main {
+    min-width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 10vh;
+    gap: 1rem;
+    border-bottom: 1px solid #000;
+}
+
+.menu_item {
+    text-decoration: none;
+    color: #000;
+    font-size: .75rem;
+}
+
 .counter1_container {
     width: 100%;
     min-height: 100vh;
@@ -16,3 +36,4 @@
     display: flex;
     gap: 1rem;
 }
+

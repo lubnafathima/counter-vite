@@ -1,9 +1,21 @@
-.count_handle {
+.header {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
     min-height: 10vh;
     padding: 1rem;
     border-bottom: 1px solid #000;
+}
+
+.link, .count_handle {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    gap: 1rem;
+}
+
+.link_item {
+    text-decoration: none;
+    color: #000;
+    font-size: .75rem;
 }
